@@ -1,0 +1,6 @@
+/* Cleaning up App.css as we moved styles to index.css or kept them simple */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
