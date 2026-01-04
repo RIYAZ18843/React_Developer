@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { ThemeProvider } from './ThemeContext'
 import HookDemo from './HookDemo'
+import RefDemo from './RefDemo'
 import './App.css'
 
 function App() {
@@ -43,8 +44,10 @@ function App() {
         <h1>React Hooks</h1>
         <p className="description">Exploring the <code>useState</code> hook with a premium counter.</p>
 
-        {/* New Hook Demo Component */}
+        {/* New Hook Demo Components */}
         <HookDemo />
+        <RefDemo />
+
 
         <div className="counter-value">{count}</div>
 
